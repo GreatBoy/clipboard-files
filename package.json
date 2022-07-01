@@ -9,8 +9,8 @@
 		"test": "test"
 	},
 	"binary": {
-		"module_name": "binding",
-		"module_path": "./lib/binding/{node_abi}-{platform}-{arch}/",
+                "module_name": "binding",
+                "module_path": "./lib/binding/",
 		"package_name": "{node_abi}-{platform}-{arch}.tar.gz",
 		"host": "https://github.com/alex8088/clipboard-files/releases/download/",
 		"remote_path": "v{version}"
